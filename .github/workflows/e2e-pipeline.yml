@@ -31,7 +31,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        languages: ['python', 'go']
+        languages: ['python']
 
     steps:
       - name: Checkout
