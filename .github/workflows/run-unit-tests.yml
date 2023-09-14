@@ -4,6 +4,8 @@ on:
   push:
     branches:
       'feature/*'
+  schedule:
+    - cron: '0 22 * * *'
 
 jobs:
   run-unit-tests:
